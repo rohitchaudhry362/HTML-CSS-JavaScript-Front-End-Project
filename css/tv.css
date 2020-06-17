@@ -1,0 +1,520 @@
+body
+{
+	background-color: white;
+	margin: 0px;
+}
+main
+{
+	height: 1700px;
+	width: 1263px;
+	background-color:white;
+
+}
+main header
+{
+	width: 1263px;
+	height: 60px;
+	background-color: #2874EE;
+	position: fixed;
+}
+main header div.sitename
+{
+	height: 40px;
+	width: 160px;
+	margin-left: 40px;
+	
+}
+main header div.sitename img
+{
+	height: 40px;
+	width: 160px;
+	margin-top: 10PX;
+	border-radius: 2px;
+	float: left;
+}
+main header div.searchbar
+{
+	height: 60px;
+	width: 500px;
+	float: left;
+	margin-left: 20px;
+	margin-top: -40px;
+}
+main header .searchbar input
+{
+	margin-top: 5px;
+	width: 500px;
+	height: 35px;
+	margin-top: 8px;
+	border-radius: 3px;
+}
+main header .searchicon
+{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	float: left;
+	margin-top: -31px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+main header .searchicon img
+{
+	height: 20px;
+	width: 20px;
+	margin-top: 8px;
+}
+main header div.login
+{
+	height: 40px;
+	width: 150px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 125px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+
+}
+main header div.more
+{
+	height: 40px;
+	width: 100px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 20px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+
+}
+main header div.more img
+{
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-left: 50px;
+	margin-top: -24px;
+}
+main header div.cart
+{
+	height: 40px;
+	width: 100px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 0px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+}
+main header div.cart img
+{
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-top: 16px; 
+}
+main nav
+{
+	width: 1263px;
+	height: 40px;
+	background-color: white;
+	padding-top: 70px;
+}
+main nav div.ulli
+{
+	width: 1253px;
+	height: 36px;
+	float: left;
+	background-color: white;
+	padding-top: 2px;
+	padding-left: 5px;
+}
+main nav .ulli ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+main nav .ulli ul li
+{
+	width: 156px;
+	height:31px;
+	float: left;
+	padding-top: 5px;
+}
+main nav .ulli ul li a
+{
+	color: black;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+}
+main nav .ulli ul li:hover
+{
+	transform:scale(1.1);
+	background-color: #ffff33;
+	border-radius: 3px; 
+}
+main nav .ulli ul li a:hover
+{
+	color:#2874EE;
+}
+main div.center
+{
+	width: 1263px;
+	height: 1343px;
+	float: left;
+}
+main .center div.tv
+{
+	width: 963px;
+	height: 1360px;
+	float: left;
+}
+main .center .tv div.tv1
+{
+	width: 963px;
+	height: 333px;
+	float: left;
+}
+main .center .tv div.tv1A
+{
+	width: 340px;
+	height: 333px;
+	float: left;
+	color: green;
+	font-size: 18px;
+	font-family: arial;
+}
+main .center .tv .tv1A img
+{
+	height: 200px;
+	width: 310px;
+	margin-left: 15px;
+	margin-top: 60px;
+}
+main .center .tv div.tv1B
+{
+	width: 403px;
+	height: 333px;
+	float: left;
+	color: black;
+	font-family: arial;
+	font-size:18px;
+}
+main .center .tv .tv1B div.upper1
+{
+	height: 50px;
+	width: 300px;
+	margin-top: 5px;
+	float: left;
+	margin-left: 20px;
+	font-size: 16px;
+	font-family: arial;
+	color: grey;
+	line-height: 28px;
+
+}
+main .center .tv .tv1B .upper1 img
+{
+	height: 30px;
+	width: 40px;
+	float: left;
+}
+main .center .tv .tv1B div.upper2
+{
+	width: 280px;
+	height: 180px;
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+	color: black;
+	font-size: 16px;
+	font-family: arial;
+	line-height: 24px;
+}
+main .center .tv div.tv1C
+{
+	width: 220px;
+	height: 333px;
+	float: left;
+	color: black;
+	font-family: arial;
+}
+main .center .tv .tv1C div.upper1
+{
+	height: 70px;
+	width: 180px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	color: black;
+	font-family: arial;
+	font-size: 26px;x
+}
+main .center .tv .tv1C .upper1 img
+{
+	height: 30px;
+	width: 80px;
+}
+.one
+{
+	color: green;	
+}
+main .center div.advert
+{
+	height: 1363px;
+	width: 300px;
+	float: left;
+	background-color: yellow;
+}
+main .center .advert div.advert1
+{
+	height: 908px;
+	width: 300px;
+	float: left;
+	background-color: blue;
+}
+main .center .advert .advert1 img
+{
+	height: 908px;
+	width: 300px;
+}
+main .center .advert div.advert2
+{
+	height: 454px;
+	width: 300px;
+	float: left;
+	background-color: red;
+}
+main .center .advert .advert2 img
+{
+	height: 454px;
+	width: 300px;
+}
+
+main footer
+{
+	width: 1263px;
+	height: 400px;
+	margin-top: 10px;
+	background-color: white;
+}main footer div.footer1
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+main footer .footer1 div.footer1A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer1 div.footer1B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer1 .footer1B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer1 .footer1B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer1 .footer1B ul li:nth-child(6)
+{
+	border-bottom: none;
+}
+main footer .footer1 .footer1B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer2
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+main footer .footer2 div.footer2A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer2 div.footer2B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer2 .footer2B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer2 .footer2B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer2 .footer2B ul li:nth-child(5)
+{
+	border-bottom: none;
+}
+main footer .footer2 .footer2B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer3
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+main footer .footer3 div.footer3A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer3 div.footer3B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer3 .footer3B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer3 .footer3B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer3 .footer3B ul li:nth-child(5)
+{
+	border-bottom: none;
+}
+main footer .footer3 .footer3B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer4
+{
+	width: 1243px;
+	height: 80px;
+	float: left;
+	margin-left: 40px;
+}
+main footer .footer4 div.footer4A
+{
+	width: 413px;
+	height: 80px;
+	float: left;
+	border-right: 1px dotted black;
+}
+main footer .footer4 .footer4A div.footer4AA
+{
+	height: 50px;
+	width: 100px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+main footer .footer4 .footer4A .footer4AA img
+{
+	height: 50px;
+	width: 100px;
+}
+main footer .footer4 .footer4A div.footer4AB
+{
+	margin-top: 20px;
+	font-family: arial;
+	margin-left: 145px;
+}
+main footer div.footer5
+{
+	height: 50px;
+	width: 1263px;
+	float: left;
+	margin-top: 10px;
+
+}
+main footer .footer5 div.footer5A
+{
+	height: 50px;
+	width: 600px;
+	margin-left: 100px;
+	float: left;
+	font-family: arial;
+	font-size: 16px;
+}
+main footer .footer5 div.footer5B
+{
+	height: 50px;
+	width: 400px;
+	float: left;
+	margin-left: 150px;
+}
+main footer .footer5 .footer5B img
+{
+	height: 30px;
+	margin-left: 180px;
+	width: 200px;
+	margin-top: 20px;
+}

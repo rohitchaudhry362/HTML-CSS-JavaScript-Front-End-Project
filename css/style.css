@@ -1,0 +1,954 @@
+body
+{
+	background-color: white;
+	margin: 0px;
+}
+main
+{
+	height: 1700px;
+	width: 1263px;
+	background-color:white;
+
+}
+main header
+{
+	width: 1263px;
+	height: 60px;
+	background-color: #2874EE;
+	position: fixed;
+	z-index: 15;
+}
+main header div.sitename
+{
+	height: 40px;
+	width: 160px;
+	margin-left: 40px;
+	
+}
+main header div.sitename img
+{
+	height: 40px;
+	width: 160px;
+	margin-top: 10PX;
+	border-radius: 2px;
+	float: left;
+}
+main header div.searchbar
+{
+	height: 60px;
+	width: 500px;
+	float: left;
+	margin-left: 20px;
+	margin-top: -40px;
+}
+main header .searchbar input
+{
+	margin-top: 5px;
+	width: 500px;
+	height: 35px;
+	margin-top: 8px;
+	border-radius: 3px;
+}
+main header .searchicon
+{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	float: left;
+	margin-top: -31px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+main header .searchicon img
+{
+	height: 20px;
+	width: 20px;
+	margin-top: 8px;
+}
+main header div.login
+{
+	height: 40px;
+	width: 150px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 125px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+
+}
+main header div.more
+{
+	height: 40px;
+	width: 100px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 20px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+
+}
+main header div.more img
+{
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-left: 50px;
+	margin-top: -24px;
+}
+main header div.cart
+{
+	height: 40px;
+	width: 100px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 0px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+}
+main header div.cart img
+{
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-top: 16px; 
+}
+main nav
+{
+	width: 1263px;
+	height: 40px;
+	background-color: white;
+	padding-top: 70px;
+}
+main nav div.ulli
+{
+	width: 1253px;
+	height: 36px;
+	float: left;
+	background-color: white;
+	padding-top: 2px;
+	padding-left: 5px;
+}
+main nav .ulli ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+main nav .ulli ul li
+{
+	width: 156px;
+	height:31px;
+	float: left;
+	padding-top: 5px;
+}
+main nav .ulli ul li a
+{
+	color: black;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+}
+main nav .ulli ul li:hover
+{
+	transform:scale(1.1);
+	background-color: #ffff33;
+	border-radius: 3px; 
+}
+main nav .ulli ul li a:hover
+{
+	color:#2874EE;
+}
+main div.center
+{
+	width: 1263px;
+	height: 1343px;
+	background-color: white;
+}
+main .center div.salesection
+{
+	width: 1263px;
+	height: 270px;
+	background-color: white;
+	float: left;
+}
+main .center .salesection div.saleleft
+{
+	width: 280px;
+	height: 250px;
+	background-color: white;
+	float: left;
+	padding: 10px;
+}
+main .center .salesection .saleleft img
+{
+	height: 250px;
+	width: 280px;
+}
+main .center .salesection div.slider
+{
+	width: 663px;
+	height: 270px;
+	overflow: hidden;
+	float: left;
+}
+.slider1
+{
+	width:2652px;
+	position:relative;
+	animation-name: rohit;
+	animation-duration: 10s;
+	animation-iteration-count: infinity;
+	margin-top: 0px;
+}
+.slider1 img
+{
+	float:left;
+}
+@keyframes rohit
+{
+0%
+{
+	left:0px;
+}
+20%
+{
+	left:0px;
+}
+25%
+{
+	left:-663px;
+}
+45%
+{
+	left:-663px;
+}
+50%
+{
+	left:-1326px;
+}
+70%
+{
+	left:-1326px;
+}
+75%
+{
+	left:-1989px;
+}
+95%
+{
+	left:-1989px;
+}
+100%
+{
+	left:-2652px;
+}
+}
+main .center .salesection div.saleright
+{
+	width: 280px;
+	height: 250px;
+	background-color: white;
+	float: left;
+	padding: 10px;
+}
+main .center .salesection .saleright img
+{
+	height: 250px;
+	width: 280px;
+}
+main .center div.dofd
+{
+	width: 1252px;
+	height: 370px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left;
+
+}
+main .center .dofd div.dofd1
+{
+	width: 230px;
+	height: 330px;
+	background-color: green;
+	float: left;
+	padding: 40px 0 0 0;
+	font-size: 25px;
+	font-family: arial;
+	color: black;
+	background: linear-gradient(#2874EE,#ffff33);
+	background-size:230px 400px;
+}
+
+main .center .dofd .dofd1 button
+{
+	border-radius: 3px;
+	outline: none;
+	background-color: #2874EE;
+	width: 100px;
+	height: 50px;
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+}
+main .center .dofd div.dofd2
+{
+	height: 370px;
+	width: 250px;
+	float: left;
+}
+main .center .dofd .dofd2 img
+{
+	height: 230px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+main .center .dofd .dofd2 div.dofd2A
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	margin-left: 25px;
+}
+main .center .dofd .dofd2 div.dofd2B
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: green;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .dofd .dofd2 div.dofd2C
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: darkgrey;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .dofd div.dofd3
+{
+	height: 370px;
+	width: 250px;
+	float: left;
+}
+main .center .dofd .dofd3 img
+{
+	height: 230px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+main .center .dofd .dofd3 div.dofd3A
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	margin-left: 25px;
+}
+main .center .dofd .dofd3 div.dofd3B
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: green;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .dofd .dofd3 div.dofd3C
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: darkgrey;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .dofd div.dofd4
+{
+	height: 370px;
+	width: 250px;
+	float: left;
+}
+main .center .dofd .dofd4 img
+{
+	height: 230px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+main .center .dofd .dofd4 div.dofd4A
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	margin-left: 25px;
+}
+main .center .dofd .dofd4 div.dofd4B
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: green;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .dofd .dofd4 div.dofd4C
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: darkgrey;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .dofd div.advertise
+{
+	height: 370px;
+	width: 250px;
+	float:left;
+	background-color: green;
+	margin-left: 22px;
+}
+main .center .dofd .advertise img
+{
+	height: 370px;
+	width: 250px;
+
+}
+main .center div.line2A
+{
+	width: 150px;
+	height: 30px;
+	float: left;
+	background-color: #2874EE;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 15px;
+	font-family: arial;
+	color: white;
+	border:1px solid #2874ee;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	line-height: 30px;
+}
+main .center div.line3
+{
+	width: 1252px;
+	height: 260px;
+	background-color: white;
+	margin-top: 10px;
+	float: left;
+	margin-left: 5px;
+
+}
+main .center .line3 div.line3A
+{
+	width: 410px;
+	height: 260px;
+	background-color: white;
+	border-radius: 10px;
+	float: left;
+}
+main .center .line3 .line3A img
+{
+	width: 410px;
+	height: 260px;
+
+}
+main .center .line3 div.line3B
+{
+	width: 410px;
+	height: 260px;
+	background-color: red;
+	border-radius: 10px;
+	float: left;
+	margin-left: 10px;
+}
+main .center .line3 .line3B img
+{
+	width: 410px;
+	height: 260px;
+
+}
+main .center .line3 div.line3C
+{
+	width: 410px;
+	height: 260px;
+	background-color: red;
+	border-radius: 10px;
+	float: left;
+	margin-left: 10px;
+}
+main .center .line3 .line3C img
+{
+	width: 410px;
+	height: 260px;
+
+}
+main .center div.line4
+{
+	width: 1252px;
+	height: 370px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left;
+
+}
+main .center .line4 div.line4A
+{
+	width: 230px;
+	height: 290px;
+	background-color: green;
+	float: left;
+	padding: 80px 0 0 0;
+	font-size: 25px;
+	font-family: arial;
+	color: black;
+	background: linear-gradient(#2874EE,#ffff33);
+	background-size:230px 400px;
+}
+main .center .line4 .line4A button
+{
+	border-radius: 3px;
+	outline: none;
+	background-color: #2874EE;
+	width: 100px;
+	height: 50px;
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+}
+main .center .line4 div.line4B
+{
+	height: 370px;
+	width: 255px;
+	float: left;
+}
+main .center .line4 .line4B img
+{
+	height: 230px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+main .center .line4 .line4B div.line4Binner1
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	margin-left: 25px;
+}
+main .center .line4 .line4B div.line4Binner2
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: green;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .line4 .line4B div.line4Binner3
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: darkgrey;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .line4 div.line4C
+{
+	height: 370px;
+	width: 255px;
+	float: left;
+}
+main .center .line4 .line4C img
+{
+	height: 230px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+main .center .line4 .line4C div.line4Cinner1
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	margin-left: 25px;
+}
+main .center .line4 .line4C div.line4Cinner2
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: green;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .line4 .line4C div.line4Cinner3
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: darkgrey;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .line4 div.line4D
+{
+	height: 370px;
+	width: 255px;
+	float: left;
+}
+main .center .line4 .line4D img
+{
+	height: 230px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+main .center .line4 .line4D div.line4Dinner1
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	margin-left: 25px;
+}
+main .center .line4 .line4D div.line4Dinner2
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: green;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .line4 .line4D div.line4Dinner3
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: darkgrey;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .line4 div.line4E
+{
+	height: 370px;
+	width: 255px;
+	float: left;
+}
+main .center .line4 .line4E img
+{
+	height: 230px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+main .center .line4 .line4E div.line4Einner1
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: black;
+	margin-left: 25px;
+}
+main .center .line4 .line4E div.line4Einner2
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: green;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main .center .line4 .line4E div.line4Einner3
+{
+	width: 200px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	font-family: arial;
+	color: darkgrey;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+main footer
+{
+	width: 1263px;
+	height: 400px;
+	margin-top: 10px;
+	
+}
+main footer div.footer1
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+main footer .footer1 div.footer1A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer1 div.footer1B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer1 .footer1B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer1 .footer1B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer1 .footer1B ul li:nth-child(6)
+{
+	border-bottom: none;
+}
+main footer .footer1 .footer1B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer2
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+main footer .footer2 div.footer2A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer2 div.footer2B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer2 .footer2B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer2 .footer2B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer2 .footer2B ul li:nth-child(5)
+{
+	border-bottom: none;
+}
+main footer .footer2 .footer2B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer3
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+main footer .footer3 div.footer3A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer3 div.footer3B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer3 .footer3B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer3 .footer3B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer3 .footer3B ul li:nth-child(5)
+{
+	border-bottom: none;
+}
+main footer .footer3 .footer3B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer4
+{
+	width: 1243px;
+	height: 80px;
+	float: left;
+	margin-left: 40px;
+}
+main footer .footer4 div.footer4A
+{
+	width: 413px;
+	height: 80px;
+	float: left;
+	border-right: 1px dotted black;
+}
+main footer .footer4 .footer4A div.footer4AA
+{
+	height: 50px;
+	width: 100px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+main footer .footer4 .footer4A .footer4AA img
+{
+	height: 50px;
+	width: 100px;
+}
+main footer .footer4 .footer4A div.footer4AB
+{
+	margin-top: 20px;
+	font-family: arial;
+	margin-left: 145px;
+}
+main footer div.footer5
+{
+	height: 50px;
+	width: 1263px;
+	float: left;
+	margin-top: 10px;
+
+}
+main footer .footer5 div.footer5A
+{
+	height: 50px;
+	width: 600px;
+	margin-left: 100px;
+	float: left;
+	font-family: arial;
+	font-size: 16px;
+}
+main footer .footer5 div.footer5B
+{
+	height: 50px;
+	width: 400px;
+	float: left;
+	margin-left: 150px;
+}
+main footer .footer5 .footer5B img
+{
+	height: 30px;
+	margin-left: 180px;
+	width: 200px;
+	margin-top: 20px;
+}

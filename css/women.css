@@ -1,0 +1,714 @@
+body
+{
+	background-color: white;
+	margin: 0px;
+}
+main
+{
+	height: 1700px;
+	width: 1263px;
+	background-color:white;
+
+}
+main header
+{
+	width: 1263px;
+	height: 60px;
+	background-color: #2874EE;
+	position: fixed;
+	z-index: 15;
+}
+main header div.sitename
+{
+	height: 40px;
+	width: 160px;
+	margin-left: 40px;
+	
+}
+main header div.sitename img
+{
+	height: 40px;
+	width: 160px;
+	margin-top: 10PX;
+	border-radius: 2px;
+	float: left;
+}
+main header div.searchbar
+{
+	height: 60px;
+	width: 500px;
+	float: left;
+	margin-left: 20px;
+	margin-top: -40px;
+}
+main header .searchbar input
+{
+	margin-top: 5px;
+	width: 500px;
+	height: 35px;
+	margin-top: 8px;
+	border-radius: 3px;
+}
+main header .searchicon
+{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	float: left;
+	margin-top: -31px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+main header .searchicon img
+{
+	height: 20px;
+	width: 20px;
+	margin-top: 8px;
+}
+main header div.login
+{
+	height: 40px;
+	width: 150px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 125px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+
+}
+main header div.more
+{
+	height: 40px;
+	width: 100px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 20px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+
+}
+main header div.more img
+{
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-left: 50px;
+	margin-top: -24px;
+}
+main header div.cart
+{
+	height: 40px;
+	width: 100px;
+	float: left;
+	margin-top: -31px;
+	margin-left: 0px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	font-family: arial;
+	line-height: 40px;
+}
+main header div.cart img
+{
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-top: 16px; 
+}
+main nav
+{
+	width: 1263px;
+	height: 40px;
+	background-color: white;
+	padding-top: 70px;
+}
+main nav div.ulli
+{
+	width: 1253px;
+	height: 36px;
+	float: left;
+	background-color: white;
+	padding-top: 2px;
+	padding-left: 5px;
+}
+main nav .ulli ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+main nav .ulli ul li
+{
+	width: 156px;
+	height:31px;
+	float: left;
+	padding-top: 5px;
+}
+main nav .ulli ul li a
+{
+	color: black;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+}
+main nav .ulli ul li:hover
+{
+	transform:scale(1.1);
+	background-color: #ffff33;
+	border-radius: 3px; 
+}
+main nav .ulli ul li a:hover
+{
+	color:#2874EE;
+}
+main div.center
+{
+	width: 1263px;
+	height: 1343px;
+	float: left;
+}
+main .center div.advert1
+{
+	width: 300px;
+	height: 1000px;
+	float: left;
+}
+main .center .advert1 img
+{
+	width: 300px;
+	height: 1000px;
+}
+main .center div.advertright
+{
+	height: 1000px;
+	width: 963px;
+	float: left;
+}
+main .center .advertright div.line2A
+{
+	width: 150px;
+	height: 30px;
+	float: left;
+	background-color: #2874EE;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 15px;
+	font-family: arial;
+	color: white;
+	border:1px solid #2874ee;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	line-height: 30px;
+}
+main .center .advertright div.line3
+{
+	width: 953px;
+	height: 370px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+main .center .advertright .line3 div.line3A
+{
+	width: 232px;
+	float: left;
+	height: 369px;
+}
+main .center .advertright .line3 .line3A div.image
+{
+	height: 270px;
+	width: 200px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 16px;
+}
+
+main .center .advertright .line3 .line3A .image img
+{
+	height: 270px;
+	width: 200px;
+}
+main .center .advertright .line3 .line3A div.name
+{
+	height: 40px;
+	width: 200px;
+	float: left;
+	margin-left: 15px;
+	font-family: arial;
+	color: black;
+	padding-top: 10px;
+}
+main .center .advertright .line3 .line3A div.price
+{
+	height: 25px;
+	width: 200px;
+	float: left;
+	margin-left: 15px;
+	font-family: arial;
+	margin-top: 10px;
+	color: green;
+}
+.one
+{
+	color: darkgreen;
+}
+
+main .center .advertright div.line4
+{
+	width: 953px;
+	height: 310px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+main .center .advertright .line4 div.line4A
+{
+	width: 233px;
+	float: left;
+	height: 310px;
+	
+}
+main .center .advertright .line4 .line4A div.image
+{
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 16px;
+
+}
+
+main .center .advertright .line4 .line4A .image img
+{
+	height: 130px;
+	width: 180px;
+}
+
+main .center .advertright .line4 .line4A div.price
+{
+	height: 20px;
+	width: 150px;
+	float: left;
+	margin-left: 55px;
+	font-family: arial;
+	margin-top: 10px;
+	color: green;
+}
+main .center .advertright .line4 .line4A div.spec
+{
+	height: 100px;
+	width: 233px;
+	float: left;
+	font-family: arial;
+	margin-top: 10px;
+	color: black;
+}
+main .center .advertright div.modelad
+{
+	float: left;
+	height: 205px;
+	width: 933px;
+	background-color: red;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+main .center .advertright .modelad div.ad1
+{
+	float: left;
+	height: 203px;
+	width: 464px;
+	background-color: yellow;
+	border:1px solid white;
+}
+main .center .advertright .modelad .ad1 img
+{
+	height: 205px;
+	width: 466px;
+}
+main .center .advertright .modelad .ad1 img:hover
+{
+	transform: scale(1.2);
+}
+
+main .center .advertright .modelad div.ad2
+{
+	float: left;
+	height: 205px;
+	width: 467px;
+}
+main .center .advertright .modelad .ad2 img
+{
+	height: 205px;
+	width: 467px;
+}
+main .center .advertright .modelad .ad2 img:hover
+{
+	transform: scale(1.2);
+}
+
+main .center div.deal
+{
+	float: left;
+	height: 350px;
+	width: 300px;
+	background-color: yellow;
+	margin-top: 10PX;
+}
+main .center .deal img
+{
+	height: 350px;
+	width: 300px;
+}
+main .center div.deal1
+{
+	float: left;
+	height: 350px;
+	width: 933px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+main .center .deal1 div.deal1A
+{
+	height: 280px;
+	width: 180px;
+	float: left;
+	background-color: white;
+}
+main .center .deal1 .deal1A img
+{
+	width: 150px;
+	height: 280px;
+	margin-top: 30px;
+}
+main .center .deal1 div.deal1B
+{
+	height: 350px;
+	width: 220px;
+	float: left;
+	background-color: white;
+	font-family: arial;
+	font-size: 15px;
+	color: black;
+}
+main .center .deal1 .deal1B div.upper1
+{
+	height: 50px;
+	width: 180px;
+
+	float: left;
+	margin-left: 20px;
+	font-size: 14px;
+	font-family: arial;
+	color: grey;
+	line-height: 18px;
+
+}
+main .center .deal1 .deal1B .upper1 img
+{
+	height: 30px;
+	width: 40px;
+	float: left;
+}
+.two{
+	color: green;
+}
+main .center .deal1 .deal1B div.upper2
+{
+	height: 200px;
+	width: 180px;
+	background-color: white;
+	float: left;
+	margin-left: 20px;
+	font-size: 14px;
+	font-family: arial;
+	color: black;
+	line-height: 22px;
+	padding-top: 30px;
+
+}
+main .center .deal1 div.deal1C
+{
+	height: 350px;
+	width: 413px;
+	float: left;
+	padding-left: 120px;
+		
+	}
+main .center .deal1 .deal1C div.upper1
+{
+	height: 96px;
+	width: 513px;
+	float: left;
+	font-family: arial;
+	color: black;
+	font-family: 18px;
+	
+}
+main .center .deal1 .deal1C .upper1 div.image
+{
+	height: 91px;
+	width: 70px;
+	float: left;
+	padding: 20px 20px 20px 10px;
+	margin-top: 5px;
+}
+main .center .deal1 .deal1C div.upper2
+{
+	height: 96px;
+	width: 513px;
+	float: left;
+	font-family: arial;
+	color: black;
+	font-family: 18px;
+	
+}
+main .center .deal1 .deal1C .upper2 div.image
+{
+	height: 91px;
+	width: 70px;
+	float: left;
+	padding: 20px;
+	margin-top: 5px;
+}
+main .center .deal1 .deal1C div.upper3
+{
+	height: 96px;
+	width: 513px;
+	float: left;
+	font-family: arial;
+	color: black;
+	font-family: 18px;
+	
+}
+main .center .deal1 .deal1C .upper3 div.image
+{
+	height: 91px;
+	width: 70px;
+	float: left;
+	padding: 20px;
+	margin-top: 5px;
+}
+main footer
+{
+	width: 1263px;
+	height: 400px;
+	margin-top: 10px;
+	background-color: white;
+}main footer div.footer1
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+main footer .footer1 div.footer1A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer1 div.footer1B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer1 .footer1B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer1 .footer1B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer1 .footer1B ul li:nth-child(6)
+{
+	border-bottom: none;
+}
+main footer .footer1 .footer1B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer2
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+main footer .footer2 div.footer2A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer2 div.footer2B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer2 .footer2B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer2 .footer2B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer2 .footer2B ul li:nth-child(5)
+{
+	border-bottom: none;
+}
+main footer .footer2 .footer2B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer3
+{
+	height: 200px;
+	width: 321px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+main footer .footer3 div.footer3A
+{
+	height: 30px;
+	width: 321px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+}
+main footer .footer3 div.footer3B
+{
+	height: 165px;
+	width: 321px;
+	float: left;
+}
+main footer .footer3 .footer3B ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+main footer .footer3 .footer3B ul li
+{
+	height: 33px;
+	width: 321px;
+	border-bottom:1px dotted black; 
+	line-height: 24px;
+}
+main footer .footer3 .footer3B ul li:nth-child(5)
+{
+	border-bottom: none;
+}
+main footer .footer3 .footer3B ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+}
+main footer div.footer4
+{
+	width: 1243px;
+	height: 80px;
+	float: left;
+	margin-left: 40px;
+}
+main footer .footer4 div.footer4A
+{
+	width: 413px;
+	height: 80px;
+	float: left;
+	border-right: 1px dotted black;
+}
+main footer .footer4 .footer4A div.footer4AA
+{
+	height: 50px;
+	width: 100px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+main footer .footer4 .footer4A .footer4AA img
+{
+	height: 50px;
+	width: 100px;
+}
+main footer .footer4 .footer4A div.footer4AB
+{
+	margin-top: 20px;
+	font-family: arial;
+	margin-left: 145px;
+}
+main footer div.footer5
+{
+	height: 50px;
+	width: 1263px;
+	float: left;
+	margin-top: 10px;
+
+}
+main footer .footer5 div.footer5A
+{
+	height: 50px;
+	width: 600px;
+	margin-left: 100px;
+	float: left;
+	font-family: arial;
+	font-size: 16px;
+}
+main footer .footer5 div.footer5B
+{
+	height: 50px;
+	width: 400px;
+	float: left;
+	margin-left: 150px;
+}
+main footer .footer5 .footer5B img
+{
+	height: 30px;
+	margin-left: 180px;
+	width: 200px;
+	margin-top: 20px;
+}
