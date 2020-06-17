@@ -1,14 +1,13 @@
 body
 {
 	background-color: white;
-	margin: 0px;
 }
 main
 {
 	height: 1700px;
 	width: 1263px;
 	background-color:white;
-
+	margin: 0px;
 }
 main header
 {
